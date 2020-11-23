@@ -1,0 +1,26 @@
+header {
+    .title_wrapper {
+        display: flex;
+        align-items: center;
+
+        h1 {
+            font-family: 'Permanent Marker', cursive;
+            margin: 21px 0 25px 0;
+            padding-left: 30px;
+        }
+
+        .pc_icon {
+            margin-left: auto;
+            padding-right: 30px;
+
+            @include mq(sp_max) {
+                display: none;
+            }
+        }
+    }
+    .sp_icon{
+        @include mq(sp_min) {
+            display: none;
+        }
+    }
+}

@@ -1,0 +1,247 @@
+@charset "UTF-8";
+/* Theme Name: This MyLog */
+/* Author: Ryoto */
+@import url(./module/bootstrap-reboot.css);
+@import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap");
+body {
+  font-family: Helvetica, '游ゴシック', 'Yu Gothic', YuGothic, HiraKakuProN-W3, 'メイリオ', Meiryo, sans-serif;
+  font-size: 14px;
+  color: #333;
+  line-height: 1.9;
+  text-align: left; }
+  body h1,
+  body h2 {
+    font-size: 30px;
+    font-weight: lighter; }
+  body h3 {
+    font-size: 20px; }
+  body h4 {
+    font-size: 18px; }
+  body a {
+    color: #333;
+    text-decoration: none; }
+  body .title {
+    font-size: 40px;
+    letter-spacing: 0.1em; }
+  body .menu ul {
+    list-style: none; }
+    body .menu ul:before {
+      content: "";
+      display: table; }
+    @media screen and (min-width: 560px) {
+      body .menu ul {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center; } }
+    @media screen and (min-width: 560px) {
+      body .menu ul li {
+        text-align: center;
+        display: block;
+        width: 100px;
+        padding-right: 30px;
+        border-bottom: 1px solid #d9d9d9; }
+        body .menu ul li a {
+          padding: 25px 0;
+          font-family: 'Lato', sans-serif;
+          font-weight: 400;
+          font-size: 13px;
+          letter-spacing: 0.1em; } }
+    @media screen and (max-width: 560px) {
+      body .menu ul li {
+        float: left;
+        border-bottom: 1px solid #d9d9d9;
+        text-align: center;
+        display: block;
+        width: 100%; }
+        body .menu ul li:first-child {
+          border-top: 1px solid #d9d9d9; }
+        body .menu ul li:nth-child(2) {
+          border-right: 1px solid #d9d9d9; }
+        body .menu ul li a {
+          display: inline-block;
+          padding: 12px 0;
+          font-family: 'Lato', sans-serif;
+          font-weight: 400;
+          font-size: 13px;
+          letter-spacing: 0.1em; } }
+    @media screen and (max-width: 560px) {
+      body .menu ul .about {
+        width: 100%; }
+      body .menu ul .portfolio {
+        width: 49.85%; }
+      body .menu ul .tipslog {
+        width: 49.85%; }
+      body .menu ul .contact {
+        width: 100%; } }
+    body .menu ul::after {
+      content: "";
+      display: table;
+      clear: both; }
+  body .socialIcon {
+    text-align: center;
+    padding: 15px 0; }
+    body .socialIcon .icon {
+      display: inline-block; }
+    body .socialIcon .space {
+      width: 20px; }
+  body .wp-pagenavi {
+    text-align: center; }
+    body .wp-pagenavi span {
+      display: inline-block;
+      margin: 0;
+      padding: 0;
+      width: 30px;
+      height: 30px;
+      line-height: 29px;
+      border-radius: 50%; }
+    body .wp-pagenavi a {
+      display: inline-block;
+      margin: 0;
+      padding: 0;
+      width: 20px;
+      height: 20px;
+      line-height: 15px;
+      border-radius: 50%; }
+  @media screen and (max-width: 560px) {
+    body .contents .content {
+      width: 300px;
+      margin: 0 auto; } }
+  @media screen and (min-width: 560px) {
+    body .contents {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      align-content: space-between; } }
+  @media screen and (min-width: 560px) {
+    body .contents .content {
+      display: block;
+      width: 300px;
+      margin: 10px; } }
+  body .contents .content .detail img {
+    display: block;
+    padding-bottom: 15px;
+    width: 100%; }
+
+header .title_wrapper {
+  display: flex;
+  align-items: center; }
+  header .title_wrapper h1 {
+    font-family: 'Permanent Marker', cursive;
+    margin: 21px 0 25px 0;
+    padding-left: 30px; }
+  header .title_wrapper .pc_icon {
+    margin-left: auto;
+    padding-right: 30px; }
+    @media screen and (max-width: 560px) {
+      header .title_wrapper .pc_icon {
+        display: none; } }
+@media screen and (min-width: 560px) {
+  header .sp_icon {
+    display: none; } }
+
+html, body, h1, h2, h3, h4, h5, h6, p, div, ul, ol, li, dl, dt, dd, table, caption, th, td, form, button, label, address, blockquote, article, aside, canvas, details, figcaption, figure, footer, hgroup, menu, nav, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0; }
+
+body .mainVisual div img {
+  padding: 20px 0;
+  width: 100%; }
+@media screen and (max-width: 560px) {
+  body .mainVisual div .pc {
+    display: none; } }
+@media screen and (min-width: 560px) {
+  body .mainVisual div .sp {
+    display: none; } }
+body .sections {
+  margin: 0 auto;
+  padding-bottom: 20px;
+  width: 85%; }
+  body .sections .section {
+    padding: 30px 0;
+    text-align: center; }
+    body .sections .section .content {
+      padding: 10px 0; }
+      body .sections .section .content h3 {
+        padding: 15px 0; }
+      body .sections .section .content img {
+        width: 100%; }
+    body .sections .section a {
+      display: inline-block;
+      margin: 15px; }
+  body .sections .portfolio .content table {
+    display: none; }
+  body .sections .portfolio .content p {
+    display: none; }
+
+#page {
+  margin: 0 auto;
+  padding: 20px 0;
+  width: 85%; }
+  #page #about .title,
+  #page #contact .title,
+  #page #portfolio .title {
+    text-align: center; }
+  #page #about .introduction,
+  #page #contact .introduction,
+  #page #portfolio .introduction {
+    padding: 30px 0; }
+    #page #about .introduction p,
+    #page #contact .introduction p,
+    #page #portfolio .introduction p {
+      text-align: center; }
+  #page #about .detail h3,
+  #page #contact .detail h3,
+  #page #portfolio .detail h3 {
+    padding-bottom: 10px;
+    font-weight: lighter;
+    letter-spacing: 0.1em; }
+  #page #about .detail h4,
+  #page #contact .detail h4,
+  #page #portfolio .detail h4 {
+    font-weight: lighter;
+    letter-spacing: 0.1em; }
+  #page #about .detail table,
+  #page #contact .detail table,
+  #page #portfolio .detail table {
+    padding: 10px 0;
+    width: 100%; }
+    #page #about .detail table th,
+    #page #contact .detail table th,
+    #page #portfolio .detail table th {
+      display: block;
+      float: left;
+      width: 30%; }
+    #page #about .detail table td,
+    #page #contact .detail table td,
+    #page #portfolio .detail table td {
+      display: block;
+      float: right;
+      width: 70%; }
+  #page #about h4 {
+    padding-top: 30px;
+    padding-bottom: 10px; }
+  #page #about img {
+    display: block;
+    width: 300;
+    margin: 0 auto;
+    padding: 10px 0; }
+  #page #portfolio .introduction {
+    padding: 15px 0; }
+  #page #contact .form h3 {
+    padding-bottom: 10px; }
+  #page #contact .form label {
+    font-weight: bold; }
+  #page #contact .form .required {
+    color: red; }
+  #page #contact .form label {
+    width: 100%; }
+    #page #contact .form label .wpcf7-form-control {
+      display: inline-block;
+      height: auto;
+      width: 100%; }
+  #page #contact .form .wpcf7-submit {
+    display: block;
+    margin: 0 auto;
+    width: 50%; }
+
+/*# sourceMappingURL=style.css.map */

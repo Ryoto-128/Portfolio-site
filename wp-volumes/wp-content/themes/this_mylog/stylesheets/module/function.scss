@@ -1,0 +1,14 @@
+$breakpoints : (
+  // "pc_min":"screen and (min-width:1024px)",
+  "tp_min":"screen and (min-width:960px)",
+  "sp_min":"screen and (min-width:560px)",
+  // "pc_max":"screen and (max-width:1024px)",
+  "tp_max":"screen and (max-width:960px)",
+  "sp_max":"screen and (max-width:560px)",
+);
+
+@mixin mq($breakpoint:sp_min){
+    @media #{map-get($breakpoints, $breakpoint)}{
+      @content;
+    }
+  }
