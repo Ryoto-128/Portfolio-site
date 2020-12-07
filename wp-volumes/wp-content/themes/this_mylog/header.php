@@ -23,13 +23,18 @@
       </h1>
 
       <div class="socialIcon pc_icon">
-        <ul>
-          <li class="icon">
+        <div class="icon">
             <a href="https://github.com/Ryoto-128">
               <i class="fab fa-github fa-3x"></i>
             </a>
-          </li>
-        </ul>
+        </div>
+        <div class="space">
+        </div>
+        <div class="icon">
+            <a href="https://www.facebook.com/engr.ryoto/">
+              <i class="fab fa-facebook fa-3x"></i>
+            </a>
+        </div>  
       </div>
     </div>
 
@@ -51,12 +56,18 @@
     </nav>
 
     <div class="socialIcon sp_icon">
-      <ul>
-        <li class="icon">
+      <div class="icon">
           <a href="https://github.com/Ryoto-128">
             <i class="fab fa-github fa-3x"></i>
           </a>
-        </li>
-      </ul>
+      </div>
+      <div class="space">
+      </div>
+      <div class="icon">
+          <a href="https://www.facebook.com/engr.ryoto/">
+            <i class="fab fa-facebook fa-3x"></i>
+          </a>
+      </div>  
     </div>
   </header>
+  <div class="wrapper">

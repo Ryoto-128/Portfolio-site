@@ -1,4 +1,10 @@
 body {
+    @include mq(tp_min){
+        .wrapper {
+            width: 960px;
+            margin: 0 auto;
+        }
+    }
     font-family: Helvetica, '游ゴシック', 'Yu Gothic', YuGothic, HiraKakuProN-W3, 'メイリオ', Meiryo, sans-serif;
     font-size: 14px;
     color: #333;
@@ -114,14 +120,16 @@ body {
     }
 
     .socialIcon {
-        text-align: center;
+        display: flex;
+        justify-content: center;
         padding: 15px 0;
 
         .icon {
-            display: inline-block;
+            display: block;
         }
 
         .space {
+            display: block;
             width: 20px;
         }
     }

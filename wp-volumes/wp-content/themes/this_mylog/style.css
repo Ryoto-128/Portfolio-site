@@ -9,6 +9,10 @@ body {
   color: #333;
   line-height: 1.9;
   text-align: left; }
+  @media screen and (min-width: 960px) {
+    body .wrapper {
+      width: 960px;
+      margin: 0 auto; } }
   body h1,
   body h2 {
     font-size: 30px;
@@ -78,11 +82,13 @@ body {
       display: table;
       clear: both; }
   body .socialIcon {
-    text-align: center;
+    display: flex;
+    justify-content: center;
     padding: 15px 0; }
     body .socialIcon .icon {
-      display: inline-block; }
+      display: block; }
     body .socialIcon .space {
+      display: block;
       width: 20px; }
   body .wp-pagenavi {
     text-align: center; }
@@ -189,34 +195,38 @@ body .sections {
     #page #contact .introduction p,
     #page #portfolio .introduction p {
       text-align: center; }
-  #page #about .detail h3,
-  #page #contact .detail h3,
-  #page #portfolio .detail h3 {
-    padding-bottom: 10px;
-    font-weight: lighter;
-    letter-spacing: 0.1em; }
-  #page #about .detail h4,
-  #page #contact .detail h4,
-  #page #portfolio .detail h4 {
-    font-weight: lighter;
-    letter-spacing: 0.1em; }
-  #page #about .detail table,
-  #page #contact .detail table,
-  #page #portfolio .detail table {
-    padding: 10px 0;
-    width: 100%; }
-    #page #about .detail table th,
-    #page #contact .detail table th,
-    #page #portfolio .detail table th {
-      display: block;
-      float: left;
-      width: 30%; }
-    #page #about .detail table td,
-    #page #contact .detail table td,
-    #page #portfolio .detail table td {
-      display: block;
-      float: right;
-      width: 70%; }
+  #page #about .detail,
+  #page #contact .detail,
+  #page #portfolio .detail {
+    padding-bottom: 50px; }
+    #page #about .detail h3,
+    #page #contact .detail h3,
+    #page #portfolio .detail h3 {
+      padding-bottom: 10px;
+      font-weight: lighter;
+      letter-spacing: 0.1em; }
+    #page #about .detail h4,
+    #page #contact .detail h4,
+    #page #portfolio .detail h4 {
+      font-weight: lighter;
+      letter-spacing: 0.1em; }
+    #page #about .detail table,
+    #page #contact .detail table,
+    #page #portfolio .detail table {
+      padding: 10px 0;
+      width: 100%; }
+      #page #about .detail table th,
+      #page #contact .detail table th,
+      #page #portfolio .detail table th {
+        display: block;
+        float: left;
+        width: 30%; }
+      #page #about .detail table td,
+      #page #contact .detail table td,
+      #page #portfolio .detail table td {
+        display: block;
+        float: right;
+        width: 70%; }
   #page #about h4 {
     padding-top: 30px;
     padding-bottom: 10px; }

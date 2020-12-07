@@ -40,11 +40,11 @@
                         </tr>
                         <tr>
                             <th>所在地</th>
-                            <td>埼玉県内<br>（ 夢は東京23区、15分県内 ）</td>
+                            <td>埼玉県内<br>（ 夢は東京23区、15分圏内 ）</td>
                         </tr>
                         <tr>
                             <th>連絡先</th>
-                            <td>ryoto33ki@gmail.com</td>
+                            <td>ryoto6ki@gmail.com</td>
                         </tr>
                     </tbody>
                 </table>
@@ -147,22 +147,21 @@
                 <table>
                     <tbody>
                         <tr>
-                            <th>★ </th>
-                            <td>あ</td>
+                            <th>★</th>
+                            <td>触れた</td>
                             <th>★ ★ </th>
-                            <td>あ</td>
+                            <td>参考書や調べて構築した</td>
                             <th>★ ★ ★</th>
-                            <td>あ</td>
+                            <td>参考書は見るがある程度使える</td>
                             <th>★ ★ ★ ★</th>
-                            <td>あ</td>
+                            <td>新しい技術や復習のために参考書を見る</td>
                             <th>★ ★ ★ ★ ★</th>
-                            <td>あ</td>
-                            <th>★ ★ ★ ★ ★ ★ +</th>
-                            <td>最強</td>
+                            <td>今まで経験した言語は何も見ない</td>
+                            <th>★ ★ ★ ★ ★ ★ ★ ★ ★ ★</th>
+                            <td>全部できる</td>
                         </tr>
                     </tbody>
                 </table>
-
             </div>
         </div>
 

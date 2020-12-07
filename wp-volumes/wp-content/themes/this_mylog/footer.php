@@ -1,3 +1,4 @@
+    </div>
     <footer>
       <nav class="menu">
         <ul>

@@ -15,11 +15,7 @@
                     <tbody>
                         <tr>
                             <th>E-mail</th>
-                            <td>ryoto33ki@gmail.com</td>
-                        </tr>
-                        <tr>
-                            <th>現在</th>
-                            <td>株式会社Her's 長期インターン</td>
+                            <td>ryoto6ki@gmail.com</td>
                         </tr>
                     </tbody>
                 </table>
@@ -32,7 +28,7 @@
                     <tbody>
                         <tr>
                             <th>FaceBook</th>
-                            <td><a>acount</a></td>
+                            <td><a>facebook.com/engr.ryoto/</a></td>
                         </tr>
                     </tbody>
                 </table>
